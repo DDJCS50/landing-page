@@ -22,6 +22,7 @@
     margin-left: 16px;
     font-size: 24px;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 ul {
@@ -30,6 +31,7 @@ ul {
     gap: 16px;
     margin: 0;
     padding: 0;
+    flex-shrink: 0;
 }
 
 a {
@@ -47,9 +49,20 @@ a {
     padding: 0 16px
 }
 
+.footer>p {
+    flex-shrink: 0;
+}
+
 .content {
     display: flex;
     flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content>.container>img {
+    width: 400px;
+    height: 200px;
 }
 
 .container {
