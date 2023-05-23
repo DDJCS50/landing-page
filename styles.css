@@ -78,18 +78,38 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: black;
 }
 
 #first {
     background-color: #1f2937;
     justify-content: space-around;
     padding-top: 48px;
+    padding-bottom: 48px;
+    align-items: center;
+}
+
+#first>.container>button {
+    width: 120px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin-top: 12px;
+    padding: 12px;
 }
 
 #first>.container {
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     height: 200px;
 }
 
@@ -105,14 +125,15 @@ body {
     color: #E5E7EB;
 }
 
-#2 {
+#second {
+    background-color: white;
 
 }
 
-#3 {
-
+#third {
+    background-color: white;
 }
 
-#4 {
-
+#fourth {
+    background-color: white;
 }
