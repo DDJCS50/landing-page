@@ -89,24 +89,24 @@ html {
 .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: auto;
     text-align: center;
     align-items: center;
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
 }
 
 #first {
     background-color: #1f2937;
     justify-content: space-around;
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 100px;
     align-items: center;
 }
 
@@ -143,19 +143,24 @@ html {
 #second {
     background-color: white;
     flex-direction: column;
+    gap: 24px;
+    padding-bottom: 90px;
 }
 
 #second h2 {
     text-align: center;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 36px;
 }
 
 #second>.container {
     justify-content: center;
-    gap: 16px;
+    gap: 48px;
 }
 
 #third {
-    background-color: white;
+    background-color: gray;
 }
 
 #fourth {
