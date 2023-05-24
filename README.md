@@ -4,5 +4,7 @@ This project will focus on creating a layout for a website according to the desi
 
 [Trees Image](./trees.jpg) By: Matt Artz, (https://unsplash.com/@mattartz);
 
-[Logo Image](./logo.jpg) By: Photo by Gérard GRIFFAY, (https://unsplash.com/@ggriffay)
+[Logo Image](./logo.jpg) By: Gérard GRIFFAY, (https://unsplash.com/@ggriffay)
+
+[USA Image](./usa.jpg) By: NASA, (https://unsplash.com/@nasa)
   

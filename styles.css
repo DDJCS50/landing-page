@@ -79,7 +79,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 1440px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -127,7 +126,16 @@ html {
 
 #second {
     background-color: white;
+    flex-direction: column;
+}
 
+#second h2 {
+    text-align: center;
+}
+
+#second>.container {
+    justify-content: center;
+    gap: 16px;
 }
 
 #third {
